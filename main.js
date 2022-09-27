@@ -70,6 +70,12 @@ function frasesdeldia() {
         "Regla numero 1: No rendirse,Regla numero 2: No olvides la numero 1",
         "Dios aprieta pero no ahorca",
         "Mucho que aprender todavia tienes",
+        "un dia mas",
+        "juas juas",
+        "alv",
+        "aiuda",
+        
+
       ]
       
       const dias = [
@@ -83,18 +89,13 @@ function frasesdeldia() {
         
       ]
 
-    //   for(let i = 0 ; i < frases.length ; i++ ){
-    //     console.log(frases[i])
-    
-    //   }
-    if(dias[0] == frases) {
-
-    }
+      const  fraseAleatoria = frases[Math.floor(Math.random( ) * dias.length) ] 
+   
     
     
     
     
-      document.getElementById("frase").innerText = frases[0]
+      document.getElementById("frase").innerText = fraseAleatoria
       
 }
 
